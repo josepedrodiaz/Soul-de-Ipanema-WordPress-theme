@@ -1,0 +1,52 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3249752, 2016-07-13T17:10:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CeraPRO-Bold by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/pro-bold/
+ * 
+ * Webfont: CeraPRO-Medium by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/pro-medium/
+ * 
+ * Webfont: CeraPRO-MediumItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/pro-medium-italic/
+ * 
+ * Webfont: CeraPRO-RegularItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/pro-italic/
+ * 
+ * Webfont: CeraPRO-Regular by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/pro-regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3249752
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2015 by Jakob Runge, under exclusive license to TypeMates, Runge Thomsen GbR. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/319658");
+
+  
+@font-face {font-family: 'CeraPRO-Bold';src: url('../fonts/familia-cera/319658_0_0.eot');src: url('../fonts/familia-cera/319658_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/familia-cera/319658_0_0.woff2') format('woff2'),url('../fonts/familia-cera/319658_0_0.woff') format('woff'),url('../fonts/familia-cera/319658_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CeraPRO-Medium';src: url('../fonts/familia-cera/319658_1_0.eot');src: url('../fonts/familia-cera/319658_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/familia-cera/319658_1_0.woff2') format('woff2'),url('../fonts/familia-cera/319658_1_0.woff') format('woff'),url('../fonts/familia-cera/319658_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CeraPRO-MediumItalic';src: url('../fonts/familia-cera/319658_2_0.eot');src: url('../fonts/familia-cera/319658_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/familia-cera/319658_2_0.woff2') format('woff2'),url('../fonts/familia-cera/319658_2_0.woff') format('woff'),url('../fonts/familia-cera/319658_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CeraPRO-RegularItalic';src: url('../fonts/familia-cera/319658_3_0.eot');src: url('../fonts/familia-cera/319658_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/familia-cera/319658_3_0.woff2') format('woff2'),url('../fonts/familia-cera/319658_3_0.woff') format('woff'),url('../fonts/familia-cera/319658_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CeraPRO-Regular';src: url('../fonts/familia-cera/319658_4_0.eot');src: url('../fonts/familia-cera/319658_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/familia-cera/319658_4_0.woff2') format('woff2'),url('../fonts/familia-cera/319658_4_0.woff') format('woff'),url('../fonts/familia-cera/319658_4_0.ttf') format('truetype');}
+ 

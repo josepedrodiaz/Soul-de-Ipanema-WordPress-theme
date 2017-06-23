@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-03-03 04:42-0300\n"
+"PO-Revision-Date: 2017-03-29 00:18-0300\n"
+"Last-Translator: Pedro <pedro@elmisithostels.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: js/jquery-ui.js:8
+msgid "'"
+msgstr ""
+
+#: 404.php:19 front-page.php:19
+msgid "Bem-vindos a"
+msgstr "Welcome to"
+
+#: 404.php:45 front-page.php:45 page-sobre.php:53 page.php:53
+#: single/single-cat-quartos.php:68
+msgid "Deve preencher todos os campos do formulário"
+msgstr "You must complete all the fields on the form."
+
+#: 404.php:50 front-page.php:50 page-sobre.php:57 page.php:57
+#: single/single-cat-quartos.php:65
+msgid "BOOK NOW"
+msgstr ""
+
+#: 404.php:54 front-page.php:54 page-sobre.php:62 page.php:62
+#: single/single-cat-quartos.php:73
+msgid "Arrival"
+msgstr ""
+
+#: 404.php:60 front-page.php:60 page-sobre.php:70 page.php:70
+#: single/single-cat-quartos.php:80
+msgid "Departure"
+msgstr ""
+
+#: 404.php:65 front-page.php:65 page-sobre.php:78 page.php:78
+#: single/single-cat-quartos.php:55 single/single-cat-quartos.php:87
+msgid "SEARCH"
+msgstr ""
+
+#: 404.php:71 front-page.php:71
+msgid "RESERVATION CENTER"
+msgstr ""
+
+#: 404.php:78 front-page.php:78 front-page.php:191
+msgid "PHONE"
+msgstr ""
+
+#: category-quartos.php:19 single/single-cat-quartos.php:19
+msgid "Quartos"
+msgstr "Rooms"
+
+#: footer.php:26 page-contato.php:125
+msgid "CONTATO"
+msgstr "CONTACT"
+
+#: front-page.php:178
+msgid "titulo-location"
+msgstr "LOCATION"
+
+#: front-page.php:183
+msgid "ADDRESS"
+msgstr ""
+
+#: front-page.php:201 page-contato.php:30 page-localizacao.php:30
+msgid "Praia de Ipanema"
+msgstr "Ipanema Beach"
+
+#: front-page.php:201 front-page.php:203 front-page.php:205 front-page.php:211
+#: page-contato.php:30 page-contato.php:32 page-contato.php:34
+#: page-contato.php:40 page-localizacao.php:30 page-localizacao.php:32
+#: page-localizacao.php:34 page-localizacao.php:40
+msgid "a pé"
+msgstr "walk"
+
+#: front-page.php:203 page-contato.php:32 page-localizacao.php:32
+msgid "Praia de Copacabana"
+msgstr "Copacabana Beach"
+
+#: front-page.php:205 page-contato.php:34 page-localizacao.php:34
+msgid "Estacao de Metro"
+msgstr "Metro Station"
+
+#: front-page.php:207 page-contato.php:36 page-localizacao.php:36
+msgid "Pao de Acucar"
+msgstr "Sugarloaf"
+
+#: front-page.php:209 page-contato.php:38 page-localizacao.php:38
+msgid "Cristo Redentor"
+msgstr "Christ Redeemer"
+
+#: front-page.php:211 page-contato.php:40 page-localizacao.php:40
+msgid "Lagoa Rodrigo de Freitas"
+msgstr ""
+
+#: front-page.php:213 page-contato.php:42 page-localizacao.php:42
+msgid "Aeroporto Galeao"
+msgstr "Galeão Airport"
+
+#: front-page.php:215 page-contato.php:44 page-localizacao.php:44
+msgid "Rodoviaria Novo Rio"
+msgstr "Novo Rio Bus Station"
+
+#: front-page.php:269
+msgid "titulo-services"
+msgstr "SERVICES"
+
+#: front-page.php:335
+msgid "titulo-reviews"
+msgstr "REVIEWS"
+
+#: front-page.php:441
+msgid "Our Staff"
+msgstr ""
+
+#: page-contato.php:17
+msgid "Contato"
+msgstr "Contact"
+
+#: page-contato.php:66 page-localizacao.php:77
+msgid "INFO"
+msgstr ""
+
+#: page-fotos.php:17
+msgid "Fotos"
+msgstr "Photos"
+
+#: page-localizacao.php:17
+msgid "Localização"
+msgstr "Location"
+
+#: page-localizacao.php:135 page-sobre.php:102 page.php:102
+msgid "GALERÍA"
+msgstr "GALLERY"
+
+#: page-servicos.php:18
+msgid "Serviços"
+msgstr ""
+
+#: page-sobre.php:17 page.php:17
+msgid "Sobre"
+msgstr "About"
+
+#: page-sobre.php:86 page.php:86
+msgid "CENTRAL DE RESERVAS"
+msgstr "RESERVATION CENTER"
+
+#: single/single-cat-quartos.php:54
+msgid "noite"
+msgstr ""
+
+#: single/single-cat-quartos.php:103
+msgid "ESSE QUARTO POSSUI"
+msgstr "THIS ROOM HAS"
+
+#: single/single-cat-quartos.php:152
+msgid "SERVICE"
+msgstr ""
+
+#: single/single-cat-quartos.php:166
+msgid "SLEEP QUALITY"
+msgstr ""
+
+#: single/single-cat-quartos.php:180
+msgid "LOCATION"
+msgstr ""
+
+#: single/single-cat-quartos.php:194
+msgid "SWIMMING POOL"
+msgstr "DINNER"
+
+#: single/single-cat-quartos.php:210
+msgid "VALUE"
+msgstr ""
+
+#: single/single-cat-quartos.php:224
+msgid "CLEANLINESS"
+msgstr ""
+
+#: single/single-cat-quartos.php:238
+msgid "ROOMS"
+msgstr ""
+
+#: single/single-cat-quartos.php:252
+msgid "FITNESS FACILITY"
+msgstr "BAR"
+
+#: single/single-cat-quartos.php:295
+msgid "CLIENTS LIKE THIS HOTEL FOR"
+msgstr "GUESTS LIKE THIS HOTEL FOR"
+
+msgid "ac"
+msgstr "a/c"
+
+msgid "wifi"
+msgstr "wifi"
+
+msgid "usb"
+msgstr "USB plugs"
+
+msgid "espelho"
+msgstr "mirror"
+
+msgid "tv"
+msgstr "cable tv"
+
+msgid "casal"
+msgstr "double bed"
+
+msgid "cadeado"
+msgstr "Locker"
+
+msgid "sabanas"
+msgstr "bed sheet"
+
+msgid "toalha"
+msgstr "towel"
+
+msgid "banheiro"
+msgstr "full bathroom"
+
+msgid "fumaca"
+msgstr "smoke detector"
+
+msgid "ventilacao"
+msgstr "ventilation"
+
+msgid "colchao"
+msgstr "colchão novo e confortável"
+
+msgid "trava"
+msgstr "Lock with card"
+
+msgid "Nome"
+msgstr "Name"
+
+msgid "Mensagem"
+msgstr "Message"
+
+msgid "Enviar"
+msgstr "Send"

@@ -1,0 +1,1552 @@
+/* ==================================================================
+	EL MISTI 2016 - Pedro
+================================================================== */
+
+section .container ul{
+	margin-left: 30px !important;
+}
+
+#tab_01 h6{
+	margin-bottom: 10px;
+}
+
+input[name="email123"] { 
+    float: right;
+    margin-right: 0 !important;
+}
+
+.welcome{
+	font-family: 'CeraPRO-Medium', sans-serif;
+	font-size: 69px !important;
+	line-height: 90px;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+	position: relative;
+	bottom: 20px;
+}
+.ipanema-home-title{
+	font-family: 'CeraPRO-Bold', sans-serif;
+	font-size: 97px;
+	color: #19b2a7;
+	font-weight: 700;
+	margin-top: 30px;
+	line-height: 90px !important;
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+	position: relative;
+	bottom: 60px;
+}
+.hotel-title h2#welcome{
+	display: inline;
+	font-size: 28px;
+    padding: 15px 55px;
+	border: 3px solid #707173;
+	font-family: 'CeraPRO-Medium', sans-serif;
+	color: #707173;
+	text-transform: uppercase; 
+}
+.hotel-title h2#welcome{
+	display: inline-block;	
+}
+.hotel-title  #cocardaTripAdvisor{
+	display: inline-block;
+	display: inline-block;
+	top: 38px;
+	position: relative;
+	padding: 7px;
+}
+.hotel-title h2 span{
+	color: #19b2a7;
+	font-weight: 600;
+}
+.vcard .hotel-title{
+	padding-bottom: 60px;
+}
+.tituloForm{
+	color: #58585a !important;
+    font-family: "CeraPRO-Bold",sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 5px !important;
+    left: 60px;
+}
+.tituloFormContainer{
+	text-align: center;
+}
+.slide1 .post-content p{
+	text-align: left;
+}
+.slide1 .post-content p strong,
+.vcard,
+.vcard strong{
+	color: #19b2a7 !important;
+}
+.slide1 .redondelito{
+	float: none;
+   	margin: 0 0 0 27px;
+    width: 92% !important;
+}
+.slide1 .listItem:nth-child(1) .redondelito img{
+	position: relative;
+	top: 0;
+}
+.slide1 .listItem:nth-child(1) .redondelito{
+	margin-top: 20px;
+}
+.slide1 .listItem:nth-child(2) .redondelito{
+	bottom: 3px;
+}
+.slide1 .redondelitoContainer{
+	position: relative;
+	bottom: 5px;
+}
+
+/* REDONDELITOS EFFECT */
+figure{
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 75px;
+}
+
+figure {
+	position: relative;
+}
+figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+figure:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle 1.75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+/* REDONDELITOS EFFECT */
+
+
+.slide1 .post-title{
+	/* margin-top: 10px; */
+	padding-right: 15px !important;
+}
+.homeText p{
+	line-height: 24px;
+}
+.slide1 .post-title a{
+	font-family: 'CeraPRO-Bold', sans-serif !important;
+	font-size: 18px !important;
+	color: #19b2a7 !important;
+}
+.slide1 .post-title a:hover{
+	color: #fff !important;
+}
+.slide1 .listItem{
+	margin-bottom: 30px;
+}
+.slide1{
+	margin: 30px auto 0;
+    padding-bottom: 0;
+}
+.slide2 .hotel-title{
+	margin-top: 45px;
+}
+footer ul.menu {
+	list-style-type: none;
+}
+footer ul.menu li{	
+	margin: 0;
+	padding:  2px 0;
+}
+footer ul.menu li a{
+	font-family: 'CeraPRO-Medium', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+footer ul.menu li a:hover{
+	color: #707173;
+}
+footer input[name=email] {    
+	float: right;
+	margin:0 0 15px 0;
+}  
+footer input[name=name] {  
+    margin:0 0 15px 0;
+    float: left;
+}
+footer form#contact .form-group{
+	width: 100%;
+}
+#formSubText p, #formSubText p strong{
+	text-align: center;
+	color: #19b2a7;
+	margin-bottom: -10px;
+    margin-top: 10px;
+}
+#formSubText p{
+	font-family: 'CeraPRO-Bold', sans-serif;
+	font-size: 14px;
+}
+#formSubText span.formSubTextNumbers{
+	font-family: 'CeraPRO-Bold', sans-serif;
+	font-size: 14px;
+}
+#formSubText img{
+	margin: -5px 0 -7px 10px;
+	width: 3%;
+}
+.social-footer ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social-footer ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.vcard{
+	text-align: center;
+}
+#address:before{
+  content:url('../images/adress-icon.svg'); /* with class ModalCarrot ??*/
+  position:relative; /*or absolute*/
+  left:-4px;
+  top:7px;
+}
+.address,.contacts{
+	/* font-size: 18px; */
+}
+#wa:before{
+  content:url('../images/wa-icon.svg'); /* with class ModalCarrot ??*/
+  position:relative; /*or absolute*/
+  left:-4px;
+  top:7px;
+}
+#phone:before{
+  content:url('../images/tel-icon.svg'); /* with class ModalCarrot ??*/
+  position:relative; /*or absolute*/
+  left:2px;
+  top:7px;
+}
+#email:before{
+  content:url('../images/mail-icon.svg'); /* with class ModalCarrot ??*/
+  position:relative; /*or absolute*/
+  left:-4px;
+  top:7px;
+}
+.vcard .contacts{
+	margin-bottom: 50px;
+}
+.icon-container i{
+	margin-top: 20px;
+}
+#distances{
+	background-color: rgba(255, 255, 255, 0.8);
+    bottom: 135px;
+    float: right;
+    padding: 0 10px;
+    position: absolute;
+    right: 80px;
+}
+#distances ul{
+	list-style: none;
+}
+#distances ul li{
+	border-top: 1px solid #707173;
+	color: #707173;
+    font-family: "CeraPRO-Medium",sans-serif;
+    font-size: 15px;
+    margin-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+}
+#distances ul li:first-child{
+	border: 0;
+	margin-top: 0;
+}
+#distances ul li:last-child{
+	padding-bottom: 10px;
+}
+#distances ul li span:before{
+	position: relative;
+	right: 7px;
+  	top:5px;
+}
+#distances ul li.copacabana span.pointName:before{
+	content: url("../images/distances-copa.svg");
+}
+#distances ul li.ipanema span.pointName:before{
+	content: url("../images/distances-ipa.svg");
+}
+#distances ul li.metro span.pointName:before{
+	content: url("../images/distances-metro.svg");
+}
+#distances ul li.paodeacucar span.pointName:before{
+	content: url("../images/distances-pao.svg");
+}
+#distances ul li.redentor span.pointName:before{
+	content: url("../images/distances-redentor.svg");
+}
+#distances ul li.lagoa span.pointName:before{
+	content: url("../images/distances-lagoa.svg");
+}
+#distances ul li.galeao span.pointName:before{
+	content: url("../images/distances-galeao.svg");
+}
+#distances ul li.rodoviaria span.pointName:before{
+	content: url("../images/distances-rodoviaria.svg");
+}
+.serviceDescription{
+	padding: 5px 0 0 40px;
+}
+.serviceDescription h3{
+	color: #19b2a7;
+    line-height: 22px;
+    margin-bottom: -4px;
+    text-transform: uppercase;
+}
+.serviceDescription p{
+	margin-top: 10px;
+}
+.serviceDescription p a {
+	color: rgb(68, 68, 68);
+	text-decoration: underline;
+}
+.sectionStaff .container{
+	width: 1000px !important;
+}
+.serviceDescription h3::after{
+	/* content: "\A/";
+	white-space: pre; /* or pre-wrap */
+}
+.time{
+	color: #19b2a7;
+}
+#langSelector{
+	display: inline-block;
+    position: absolute;
+    right: 0;
+    z-index: 10000;
+}
+#langSelector ul{
+	list-style-type: none;
+}
+#langSelector ul li{
+	border:1px solid #fff;
+}
+#langSelector ul li.activeLang,
+#langSelector ul li:hover{
+	background: rgb(112, 113, 115);
+	opacity:  0.4;
+}
+#langSelector ul li{
+	transition: opacity 0.6s ease;
+}
+#langSelector ul li a{
+ 	color: #fff;
+    display: block;
+    font-family: 'CeraPRO-Regular', sans-serif;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+#lz_overlay_chat, #lz_chat_overlay_main{
+	border: 0 !important;
+	}
+.reviewsSection{
+	min-height: 700px;
+	padding-bottom: 40px !important;
+}
+.sectionServices{
+	background-color: #eceded;
+}
+.titleServices{
+	padding-bottom: 70px !important;
+}
+.lastreview .review{
+	font-family: 'CeraPRO-RegularItalic', sans-serif;
+	font-size: 25px !important;
+	color: #707173;
+}
+.lastreview .name{
+	font-family: 'CeraPRO-Regular', sans-serif;
+	font-size: 18px !important;
+	color: #707173;
+}
+.lastreview{
+	text-align: center;
+	margin-top: 155px;
+}
+
+#datepicker::-webkit-input-placeholder,#datepicker1::-webkit-input-placeholder {
+  font-family: 'CeraPRO-RegularItalic', sans-serif;
+}
+
+#datepicker:-ms-input-placeholder,#datepicker1:-ms-input-placeholder {
+  font-family: 'CeraPRO-RegularItalic', sans-serif;
+}
+
+#datepicker:-moz-placeholder,#datepicker1:-moz-placeholder {
+  font-family: 'CeraPRO-RegularItalic', sans-serif;
+}
+
+#datepicker::-moz-placeholder,#datepicker1::-moz-placeholder {
+  font-family: 'CeraPRO-RegularItalic', sans-serif;
+}
+
+#datepicker, #datepicker1{
+	cursor: pointer;
+}
+.green{
+	color: #19b2a7;
+}
+
+.sectionStaff h3{
+	font-family: 'CeraPRO-Bold', sans-serif;
+	margin-bottom: 0 !important;
+}
+.sectionStaff h3 span.rol{
+	font-family: 'CeraPRO-Medium', sans-serif;
+}
+.sectionStaff p{
+	font-family: 'CeraPRO-MediumItalic', sans-serif;
+	color: #707173;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.staffDescription h3{
+	font-size: 15px !important;
+}
+.staffDescription{
+	padding: 25px 0 0 35px;
+}
+.contenedorMoneda{
+	margin: 0 auto;
+	pointer-events: none;
+	top: 510px;
+	width: 150px;
+	left: 450px;
+	position: relative;
+}
+
+.boxesForm .btn{
+	float: right;
+    margin: 0 15px !important;
+    padding: 0 !important;
+    width: 70% !important;
+}
+.home-form{
+	margin: 0 40px 0 25px;
+}
+
+div.form-group br{
+	display: none;
+}
+.message-container{
+	margin-top: 20px;
+}
+/* ==================================================================
+	ABOUT
+================================================================== */
+.page-header-interior{
+	padding:  125px 0 50px !important;
+	transition: opacity 0.3s ease-in-out;
+}
+.page-header-interior:hover{
+	opacity: 0.8;
+}
+#sidebar #form-lateral{
+	margin: 0;
+}
+#form-lateral .tab-pane{
+	padding: 18px 0 175px !important;
+}
+#form-lateral .tab-pane .contenedorBoxes{
+	padding: 0 25px !important;
+	text-align: center;
+}
+#form-lateral .tituloFormContainer{
+	margin-left: 0;
+}
+#form-lateral .tituloFormContainer .tituloForm{
+	left: 0;
+	display: block;
+	margin-bottom: 22px;
+	font-size: 22px;
+}
+#form-lateral .boxesForm input{
+	height: 34px;
+	width: 205px !important;
+}
+#form-lateral .boxesForm .input-group{
+	left: 0;
+}
+#form-lateral .boxesForm{
+	margin-right: 0;
+}
+#form-lateral .boxesForm .input-group:nth-child(1){ 
+    margin-bottom: 27px;
+}
+#form-lateral .boxesForm .input-group:nth-child(1){ 
+    margin-bottom: 22px;
+}
+#form-lateral .boxesForm .form-group .btn{
+	width: 245px !important;
+	height: 34px;
+	float: none;
+	margin: 0 auto 20px !important;
+	font-size: 18px;
+}
+#form-lateral .boxesForm .form-group .btn i{
+	font-size: 20px;
+	position: relative;
+	right: 14px;
+	top: 3px;
+}
+#form-lateral #formSubText{
+	text-align: center;
+}
+#form-lateral #formSubText img{
+	width: 8%;
+	position: relative;
+	right: 10px;
+}
+#form-lateral #formSubText img#phone-icon{
+	width: 7%;
+	position: relative;
+	right: 12px;
+	margin-top: 12px;
+}
+#form-lateral #formSubText h3.subtitulo-form-lateral{
+	font-family: "CeraPRO-Bold", sans-serif;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+#form-lateral #formSubText p, #form-lateral #formSubText p span{
+	font-size: 16px;
+}
+.flickrwidget .list-inline{
+	margin-left: 0 !important;
+}
+.post-title h5{
+	font-family: "CeraPRO-Bold", sans-serif;
+	font-size: 26px;
+	color: #19b2a7;
+	text-transform: uppercase;
+}
+#form-lateral #datepicker,#form-lateral #datepicker1{
+	font-size: 18px;
+}
+h1.section-title{
+	font-family: "CeraPRO-Medium", sans-serif;
+	font-size: 68px;
+	color: #fff;
+	text-shadow: 3px 3px 5px #999;
+}
+.main-content p{
+	margin: 20px 0;
+}
+.main-content p strong{
+	font-weight: normal;
+}
+.content-main h5{
+	margin-bottom: 0;
+}
+.curve{
+  margin: 0;
+  display: inline-block;
+  width: 225px;
+  min-height: 210px;
+}
+
+/* ==================================================================
+	LOCALIZACAO
+================================================================== */
+.localizacao{
+	padding-top: 50px;
+}
+.localizacao #map{
+	height: 490px;
+	margin-bottom: 50px;
+}
+.localizacao #distances{
+	position: relative;
+	bottom: 506px;
+	right: 50px;
+	margin-bottom: -506px;
+}
+.localizacao #content p{
+	color: #707173;
+}
+
+.localizacao #content p em, 
+.localizacao #content strong{
+	font-size: 20px;
+	font-style: normal;
+	color: #707173;
+}
+.localizacao #content strong{
+	font-weight: bold;
+}
+#sidebar .widget #form-lateral .tab-content .tab-pane{
+	background-image: url(http://www.elmistihostelipanema.com/wp-content/themes/souldeipanema/images/bkg-hojas.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: 62px 0;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .tituloFormContainer{
+	text-align: center !important;
+	font-size: 24px;
+	margin-bottom: -20px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .tituloFormContainer .tituloForm{
+	margin-bottom: 12px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao{
+	padding: 20px 8px 0 !important;
+	display: table;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .row{
+	border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .col-md-12{
+	text-align: left;
+	font-size: 17px;
+	padding: 0 20px;
+	color: #707173;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .col-md-12 .row:last-child{
+	border-bottom: 0;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .col-md-12 .col-md-2{
+	padding-left: 15px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .col-md-12 .col-md-10{
+	padding: 0 0 0 6px;
+	line-height: 20px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .EnderecoLoc{
+	top: 15px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .WALoc{
+	top: 3px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .TelLoc{
+	bottom: 3px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .MailLoc{
+	top: 1px;
+}
+.localizacao #sidebar .widget #form-lateral .infoLocalizacao .contenedorBoxes .col-md-12 .row:first-child{
+	padding-bottom: 30px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #EnderecoLocimg,
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #WALocimg,
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #TelLocimg,
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #MailLocimg{
+	position: relative;
+}
+
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #EnderecoLocimg{
+	bottom: -30px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #WALocimg{
+
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #MailLocimg{
+
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao #TelLocimg{
+	bottom: -5px;
+}
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao  .col-md-10 .col-md-12,
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao  .col-md-1{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#sidebar .widget #form-lateral .tab-content .infoLocalizacao .contenedorBoxes{
+	padding: 0 !important;
+}
+
+
+
+/* ==================================================================
+	CONATATO
+================================================================== */
+.contato {
+    padding-top: 67px;
+}
+
+
+.contato #distances{
+	position: relative;
+	bottom: 506px;
+	right: 50px;
+	margin-bottom: -506px;
+}
+.contato #content p{
+	color: #707173;
+}
+
+.contato #content p em, 
+.contato #content strong{
+	font-size: 20px;
+	font-style: normal;
+	color: #707173;
+}
+.contato #content strong{
+	font-weight: bold;
+}
+
+.contato .container{
+	margin-top: 50px;
+}
+
+.contato .home-form .tab-pane{
+	background: transparent;
+}
+.contato #form-lateral .tab-pane .contenedorBoxes{
+	text-align: left;
+}
+
+
+
+.contato  div.contenedorBoxes div.col-md-12 div.row:nth-child(1) div.col-xs-2.col-md-2 img{
+	margin-top: 28px;
+}
+.contato  div.contenedorBoxes div.col-md-12 div.row:nth-child(2) div.col-xs-2.col-md-2 img,
+.contato  div.contenedorBoxes div.col-md-12 div.row:nth-child(4) div.col-xs-2.col-md-2 img{
+	margin-top: 13px;
+	}
+.contato  div.contenedorBoxes div.col-md-12 div.row:nth-child(3) div.col-xs-2.col-md-2 img{
+	margin-top: 28px;
+}
+.contato  div.contenedorBoxes div.col-md-12 div.row div.col-xs-10.col-md-10{
+	font-size: 18px;
+    line-height: 22px;
+    padding: 15px 0;
+}
+
+.contato .tituloFormContainer{
+	text-align: left;
+}
+
+.contato .widget-title h3{
+	font-family: 'CeraPRO-Bold';
+	font-size: 22px;
+}
+
+.contato input[name="name123"]{
+	float: left;
+}
+.contato input[name="email123"]{
+	float: right;
+}
+.contato textarea[name="message123"]{
+	margin-top: 10px;
+	height: 150px;
+}
+.contato input[name="name123"],
+.contato input[name="email123"]{
+	width: 49%;
+	padding: 10px;
+	display: inline-block;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+.contato input[name="subject123"]{
+	height: 40px;
+	margin-bottom: 15px;
+	}
+
+.contato input[name="name123"],
+.contato input[name="email123"],
+.contato textarea[name="message123"],
+.contato input[name="subject123"]{
+	border-color: #333 #333 #19b2a7;
+}
+
+
+
+.contato div.widget div.formrwidget div.form-group p input.wpcf7-form-control.wpcf7-submit.btn{
+	background-color: #19b2a7;
+    border-color: #19b2a7;
+    color: #fff;
+    padding: 7px 15px;
+    float: right;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contato div.widget div.formrwidget div.form-group p input.wpcf7-form-control.wpcf7-submit.btn:hover{
+	background-color: #ff5a5e;
+}
+
+.contato .form-control{
+	display: inline-block;
+}
+
+.contato .form-group{
+	margin-bottom: -5px;
+}
+
+
+/* ==================================================================
+	FOTOS
+================================================================== */
+
+section.galeria-fotos{
+	margin: 0 auto 30px;
+	max-width: 1100px;
+}
+
+section.galeria-fotos img{
+	max-width: 100%;
+	transition: opacity 0.3s ease-in-out;
+}
+section.galeria-fotos img.bright:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+section.galeria-fotos .foto_grande,
+section.galeria-fotos .foto_chica{
+	text-align: center;
+	margin: 30px 0;
+}
+
+section.fotos .content-fotos{
+	float: none;
+}
+section.fotos{
+	padding: 50px 0 0;
+}
+section.fotos h5{
+	font-family: 'CeraPRO-Medium';
+	font-size: 23px;
+}
+
+.content-fotos .post-wrapper{
+	text-align: center;
+}
+
+body section#slideBig{
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+
+body section#slideBig ul{
+	margin-left: 0 !important;
+}
+
+/* ==================================================================
+	QUARTOS
+================================================================== */
+div.single-hotel-wrapper div.single-hotel-image {
+	margin-bottom: 30px;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price{
+	max-width: 280px;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price h2.room-name{
+	font-size: 16px;
+	color: #19b2a7;
+	text-align: left;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price p{
+	font-size: 14px;
+	color: #707173;
+	line-height: 16px;
+	text-align: left;
+	margin: 10px 0;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price h2{
+	font-size: 34px;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price a.btn{
+	height: 38px !important;
+	line-height: 26px;
+	padding: 6px 60px !important;
+}
+div.single-hotel-wrapper div.single-hotel-image div.price a.btn i{
+	font-size: 18px;
+	position: relative;
+	top: 2px;
+	right: 2px;
+}
+div.single-hotel-wrapper .hotel-title{
+	padding-bottom: 0; 
+}
+
+section.hostels{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+section.hostels .post-title{
+	text-align: center;
+	font-size: 24px;
+}
+
+section.hostels .post-title.clearfix h5 a{
+	color: #19b2a7;
+	background-color: transparent;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+section.hostels .post-title.clearfix h5:hover, 
+section.hostels .post-title.clearfix h5 a:hover{
+	color: rgba(25, 178, 167, 0.75);
+	background-color: transparent;
+}
+
+section.hostels div.hotel-wrapper p{
+	display: inline;
+}
+section.hostels div.hotel-wrapper a{
+	font-family: 'CeraPRO-Medium', sans-serif;
+}
+section.hostels #banner-pie-listado-quartos{
+	display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+div.single-hotel-wrapper h5{
+	text-align: left;
+	font-family: "CeraPRO-Bold", sans-serif;
+	font-size: 22px;
+}
+div.single-hotel-wrapper .bookform .input-group{
+	left: 0;
+}
+div.single-hotel-wrapper .bookform .input-group .form-control,
+div.single-hotel-wrapper .bookform .form-group button{
+	height: 40px !important;
+}
+div.single-hotel-wrapper .bookform .btn i{
+	top: 2px;
+}
+div.single-hotel-wrapper .bookform .btn{
+	padding: 0;
+}
+div.single-hotel-wrapper .bookform .btn-block{
+	width: 220px;
+}
+div.single-hotel-wrapper .bookform  .btn-primary.btn-normal{
+	padding: 7px 30px !important;
+}
+div.single-hotel-wrapper .hotel-desc p{
+	font-size: 18px;
+}
+div.single-hotel-wrapper h5.possui{
+	margin-top: 20px;
+}
+div.single-hotel-wrapper  .icon-container{
+	position: relative;
+	top: 26px;
+	background-color: transparent;
+	background-image: url(/wp-content/themes/souldeipanema/images/bkg-icons-services.svg);
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+div.single-hotel-wrapper  .icon-container.usb{
+	background-position: 0 -55px; 
+}
+div.single-hotel-wrapper  .icon-container.ac{
+	background-position: 0 -110px; 
+}
+div.single-hotel-wrapper  .icon-container.espelho{
+	background-position: 0 -165px; 
+}
+div.single-hotel-wrapper  .icon-container.tv{
+	background-position: 0 -223px; 
+}
+div.single-hotel-wrapper  .icon-container.casal{
+	background-position: 0 -285px; 
+}
+div.single-hotel-wrapper  .icon-container.cadeado{
+	background-position: 0 -343px; 
+}
+
+
+
+div.single-hotel-wrapper  .icon-container.sabanas{
+	background-position: -47px 0; 
+}
+div.single-hotel-wrapper  .icon-container.colchao{
+	background-position: -47px -63px; 
+}
+div.single-hotel-wrapper  .icon-container.toalha{
+	background-position: -47px -118px; 
+}
+div.single-hotel-wrapper  .icon-container.banheiro{
+	background-position: -44px -169px; 
+}
+div.single-hotel-wrapper  .icon-container.fumaca{
+	background-position: -44px -225px; 
+}
+div.single-hotel-wrapper  .icon-container.ventilacao{
+	background-position: -44px -287px; 
+}
+div.single-hotel-wrapper  .icon-container.trava{
+	background-position: 0px -386px; 
+}
+div.single-hotel-wrapper  .icon-container.tomadas{
+	background-position: 0px -430px; 
+}
+div.single-hotel-wrapper  .icon-container.lockers{
+	background-position: 0 -343px; 
+}
+div.single-hotel-wrapper  .icon-container.varanda{
+	background-position: -46px -386px; 
+}
+
+
+
+div.single-hotel-wrapper .hotel-icon-list p{
+	text-transform: capitalize;
+}
+
+
+div.single-hotel-wrapper hr.after_services{
+	margin-top: 60px;
+}
+
+div.single-hotel-wrapper .review-total{
+	background-color: #19b2a7;
+	padding: 17px;
+}
+div.single-hotel-wrapper .review-total h1,
+div.single-hotel-wrapper .review-total .rating i{
+	color: #fff;
+}
+
+div.single-hotel-wrapper .review-total h1{
+	font-family: 'CeraPRO-Medium', sans-serif;
+	margin-bottom: 0;
+}
+div.single-hotel-wrapper .review-total .rating{
+	display: block;
+	margin: 0 auto 5px;
+}
+
+div.single-hotel-wrapper .review-total .tripTxt{
+	border-top: 1px solid #fff;
+	width: 145px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 3px;
+}
+.hotel-widget small{
+	list-style: none;
+}
+
+.hotel-widget img{
+	width: 20px;
+	position: relative;
+	top: 2px;
+}
+
+
+.reviews-sidebar{
+	border: 1px solid #19b2a7;
+	padding: 5px;
+	font-family: 'CeraPRO-RegularItalic', sans-serif;
+	font-size: 12px;
+	display: inline-block;
+	line-height: 18px;
+	color: #545754;
+	margin-top: 10px;
+	max-height: 200px;
+	overflow: scroll;
+}
+.hotel-widget p{
+	font-weight: 100 !important;
+}
+.reviews-sidebar h2{
+	font-family: 'CeraPRO-Bold', sans-serif;
+	font-size: 13px;
+	color: #19b2a7;
+	display: inline-block;
+	white-space: nowrap;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.reviews-sidebar .imgReview1,
+.reviews-sidebar .imgReview2{
+	width: 48px;
+	margin: 10px;
+}
+.reviews-sidebar .imgReview1{
+	float: left;
+}
+.reviews-sidebar .imgReview2{
+	float: right;
+}
+.reviews-sidebar .reviewStars{
+	width: 12px;
+	margin: 0 3px;
+}
+div.hotel-widget:nth-child(7) > h2:nth-child(2) > img{
+	position: relative;
+	top: 0 !important;
+}
+.reviews-sidebar .linea{
+	border: 0;
+    height: 1px;
+    background: #19b2a7;
+    margin: 5px 0 12px !important;
+}
+#sidebar div.clearfix:nth-child(1){
+	margin-bottom: 0 !important;
+}
+
+/* ==================================================================
+	SERVICOS
+================================================================== */
+.iconServices{
+	top: -17px !important;
+}
+
+
+
+
+
+
+
+/* ==================================================================
+	RESPONSIVE - MOBILE
+================================================================== */
+@media (max-width: 768px) {	
+	
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - HEADER
+	================================================================== */
+	.fixedheader{
+		z-index: 1;
+	}
+	#langSelector{
+		z-index: 2;
+	}
+	#datepicker, #datepicker1{
+		position: relative;
+		z-index: 3 !important;
+	}
+	html body div#wrapper article.parallax-slider div.tp-parallax-container div.tp-caption{
+		position: relative !important;
+		left: 0px !important;
+	}
+	.welcome{
+		font-size: 30px !important;
+		line-height: 45px;
+		text-shadow: 3px 3px 9px rgba(0,0,0,0.4);
+	}
+	.ipanema-home-title{
+		margin-top: 10px;
+		line-height: 55px !important;
+		text-shadow: 3px 3px 9px rgba(0,0,0,0.4);
+		font-size: 35px !important;
+	}
+	#brand{
+		width: 70% !important;
+	}
+	#brand  object{
+		width: 85% !important;
+	}
+	.navbar-toggle {
+	    font-size: 24px !important;
+	    margin-top: -3px !important;
+	    padding: 10px 20px 0 0 !important;
+	}
+	.ipanema-home-title{
+		line-height: 115px !important;
+	}
+	.home-form .tab-pane{
+		padding: 6px 20px;
+	}
+	#langSelector ul li a{
+		padding: 1px 8px;
+	}
+	body #wrapper header{
+		padding: 2px;
+	}
+	header .container #brand object{
+		width: 85% !important;
+		max-width: 250px;
+	}
+	.navbar-nav > li > a{
+		font-size: 18px;
+		text-align: center;
+	}
+	.navbar-collapse, .navbar{
+		margin: 8px 0;
+	}
+
+
+	h1.section-title{
+		font-size: 40px;
+	}
+
+
+	.localizacao #map{
+		height: 330px;
+	}
+
+	.localizacao .tituloFormContainer{
+		display: block;
+	}
+
+	.localizacao .infoLocalizacao{
+		width:100%;
+	}
+
+
+
+
+
+
+
+
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - HOME 
+	================================================================== */
+	.welcome, .ipanema-home-title{
+		font-size: 38px !important;
+	}
+	.home-form{
+		margin: 0 !important;
+	}
+	.form-control{
+		height: 35px !important;
+	}
+	.container{
+		padding: 10px !important;
+	}
+	.navbar-toggle{
+		padding:  10px 45px 0 0!important;
+	}
+	.boxesForm .btn{
+		float: none !important;
+		margin: 0 auto !important;
+	}
+	#formSubText img{
+		margin: -5px 0 -6px 10px;	
+		width: 6.7%;
+	}
+	.hotel-title h2{
+		padding: 7px;
+		font-size: 18px;
+		/* white-space: nowrap; */
+	}
+	.hotel-title #cocardaTripAdvisor{
+		top: 0;
+	}
+	.post-media img{
+		height: auto;
+	}
+	.slide1{
+		margin: 0;
+	}
+	.slide1 .redondelito{
+		margin: 0;
+	}
+	.slide1 .redondelito a figure{
+		margin: 0 auto;
+	}
+	.hotel-title{
+		padding-bottom: 40px;
+	}
+	.primerColumna{
+		margin-bottom: 90px;
+	}
+	.listItem .col-sm-6{
+		padding-right: 30px;
+		padding-left: 25px;
+		padding-top: 25px;
+	}
+	#distances{
+		display: none;
+	}
+	#map{
+		height: 350px;
+	}
+	.circle-stat canvas:nth-child(2){
+		display: none;
+	}
+	.stat-details{
+		position: relative;
+		margin-bottom: 60px;
+	}
+	.circle-stat{
+		background-size: 30% auto;
+	}
+	#wrapper .sectionStaff .container{
+		width: 100% !important;
+	}
+	.flogo{
+		float: none;
+		margin: 0 auto;
+		width: 60%;
+	}
+	.footer ul.menu li, .social-footer ul{
+		text-align: center;
+	}
+	.copyrights .container{
+		padding-bottom: 30px !important;
+	}
+	#withphone .home-form .tab-pane{
+		margin-top: 70px;
+	}
+	#withphone .home-form .tab-pane .boxesForm .col-sm-6{
+		padding: 0 67px !important;
+	}
+	.primerColumna{
+		margin-bottom: 40px;
+	}
+	#wrapper .slide1{
+		padding-top: 30px;
+	}
+	.section{
+		padding: 40px 0 0;
+	}
+	.titleServices{
+		padding-bottom: 20px !important;
+	}
+	.lastreview{
+		margin-top: 30px;
+	}
+
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - SOBRE
+	================================================================== */
+
+	div.post-content p img:first-child{
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	div.post-content p img.curve{
+		float: right;
+	    height: auto !important;
+	    min-height: auto;
+	    width: 50% !important;
+	    margin-right: 10px;
+	}
+
+	.page-header-interior{
+		padding: 10px 0 0 !important;
+	}
+	#form-lateral .tab-pane{
+		padding: 18px 0 35px !important;
+	}
+	#form-lateral .boxesForm input{
+		width: 100% !important;
+	}
+
+	div.widget:nth-child(2) > div:nth-child(1) > h3:nth-child(1){
+		margin-top: 20px;
+	}
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - QUARTOS
+	================================================================== */
+	div.single-hotel-wrapper .bookform .btn-primary.btn-normal{
+		margin: 0 auto;
+	}
+
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - CONTATO
+	================================================================== */
+	.contato div.widget div.formrwidget div.form-group p input.wpcf7-form-control.wpcf7-submit.btn{
+		margin-right: 33%;
+	}
+	/* ==================================================================
+	RESPONSIVE - MOBILE - VIDEO HOME
+	================================================================== */
+	.slide1 div.container div.popular-destinations.clearfix iframe{
+		height: 250px !important;
+		margin-top: 0 !important;
+		right: 0 !important;
+	}
+
+	/* ==================================================================
+	RESPONSIVE - MOBILE - Google tranlate language selector
+	================================================================== */
+	#google_translate_element,.viewInYourLanguageTxt{
+		text-align: center;
+	}
+	.viewInYourLanguageTxt{
+		margin-top: 65px;
+	}
+	#google_translate_element{
+		margin-bottom: 20px;
+	}
+}
+
+/* ==================================================================
+	IPHONE 5 !ONLY
+================================================================== */
+@media screen and (device-aspect-ratio: 40/71) {
+	.welcome, .ipanema-home-title{
+		font-size: 33px !important;
+	}
+}
+/* ==================================================================
+	RESPONSIVE - DESKTOP
+================================================================== */
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.sidebar-dropper{
+		display: none !important;
+	}
+	div#wrapper section div#withphone .container{
+		width: 920px;
+	}
+	.tituloFormContainer{
+		margin-left: 27px;
+	}
+	.footer .row .col-md-3{
+		padding-left: 0 !important;
+	    position: relative;
+	    right: 40px;
+	}
+	.copyrights p{
+		margin-top: 3px;
+	}
+	/* LZ CHAT */
+	.unmovable{
+		text-align: center !important;
+	}
+	#lz_overlay_chat{
+		height: 60px;
+	}
+	.bookform .input-group{
+		position: relative;
+		left: 30px;
+	}
+	.bookform .input-group2{
+		left: 50px;
+	}
+	/*datepicker box correct size*/
+	#datepicker,#datepicker1{
+		width: 125% !important;
+		font-size: 12px;
+	}
+	.boxesForm{
+		position: relative;
+		margin-right: 35px;
+	}
+	.primerColumna{
+		position: relative;
+		left: 45px;
+	}
+	.popular-destinations .clearfix{
+		padding-right: 27px;
+	}
+	.popular-destinations .clearfix img{
+		width: 100% !important;
+		height: auto !important;
+	}
+}
+
+
+/* ==================================================================
+	RESPONSIVE - Ipad Screen & porttrait
+================================================================== */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* Ipad Screen & porttrait */
+
+}
+/* ==================================================================
+	RESPONSIVE - Ipad Portrait
+================================================================== */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { /* STYLES GO HERE */ 
+.navbar-nav > li > a {
+	    font-size: 14px !important;
+	    text-align: center;
+	    padding: 0 5px;
+	}
+	.navbar-header {
+    	width: 110px;
+	}
+	#brand {
+    	width: 200% !important;
+    	margin-top: 2px;
+	}
+	.navbar-collapse.collapse{
+		margin-right: 15px;
+	}
+	.container{
+		padding-bottom: 0;
+	}
+}
+/* ==================================================================
+	RESPONSIVE - SO Big
+================================================================== */
+@media (min-width: 1400px) {	
+
+}
+
+#cocardaTripAdvisor{
+	position: absolute;
+}
+
+.icon{
+	position: relative;
+	bottom: 47px;
+}
+
+@-webkit-keyframes pulsate {
+    0% {opacity: 0.5; }
+    50% {opacity: 1.0;scale(0.3, 0.3);}
+    100% {opacity: 0.5; }
+}

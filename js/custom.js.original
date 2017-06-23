@@ -1,0 +1,280 @@
+(function($) {
+    "use strict";
+
+    /* ==============================================
+    LOADER -->
+    =============================================== 
+
+    $(window).load(function() {
+        $('#loader').delay(1).fadeOut('slow');
+        $('#loader-container').delay(1).fadeOut('slow');
+        $('body').delay(1).css({'overflow':'visible'});
+    })  */
+    
+    /* ==============================================
+    MENU HOVER -->
+    =============================================== */
+
+    $(".header .dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+
+    /* ==============================================
+    ACCORDION -->
+    =============================================== */
+
+    function toggleChevron(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find("i.indicator")
+            .toggleClass('icon-minus icon-plus');
+    }
+    $('#accordion').on('hidden.bs.collapse', toggleChevron);
+    $('#accordion').on('shown.bs.collapse', toggleChevron);
+
+    function toggleChevron(e) {
+        $(e.target)
+            .prev('.panel-heading')
+            .find("i.indicator")
+            .toggleClass('icon-minus icon-plus');
+    }
+    $('#accordion1').on('hidden.bs.collapse', toggleChevron);
+    $('#accordion1').on('shown.bs.collapse', toggleChevron);
+
+    /* ==============================================
+    CIRCLE -->
+    =============================================== */
+
+        var c1 = $('#circle1');
+        var inited = false;
+        c1.appear({ force_process: true });
+        c1.on('appear', function() {
+        if (!inited) {
+                c1.circleProgress({
+                    startAngle: -Math.PI / 4 * 3,
+                    value: 0.95,
+                    lineCap: 'round',
+                    size: 170,
+                    thickness: 10,
+                    fill: { color: '#19b2a7' }
+                });
+
+                inited = true;
+            }
+        });
+
+
+        var c2 = $('#circle2');
+        var inited2 = false;
+        c2.appear({ force_process: true });
+        c2.on('appear', function() {
+        if (!inited2) {
+            c2.circleProgress({
+                startAngle: -Math.PI / 4 * 3,
+                value: 0.98,
+                lineCap: 'round',
+                size: 170,
+                thickness: 10,
+                fill: { color: '#19b2a7' }
+            });
+
+                inited2 = true;
+            }
+        });
+
+        var c3 = $('#circle3');
+        var inited3 = false;
+        c3.appear({ force_process: true });
+        c3.on('appear', function() {
+        if (!inited3) {
+            c3.circleProgress({
+                startAngle: -Math.PI / 4 * 3,
+                value: 0.90,
+                lineCap: 'round',
+                size: 170,
+                thickness: 10,
+                fill: { color: '#19b2a7' }
+            });
+
+                inited3 = true;
+            }
+        });
+
+
+
+        var c4 = $('#circle4');
+        var inited4 = false;
+        c4.appear({ force_process: true });
+        c4.on('appear', function() {
+        if (!inited4) {
+            c4.circleProgress({
+                startAngle: -Math.PI / 4 * 3,
+                value: 0.93,
+                lineCap: 'round',
+                size: 170,
+                thickness: 10,
+                fill: { color: '#19b2a7' }
+            });
+
+                inited4 = true;
+            }
+        });
+
+        
+
+    /* ==============================================
+    PROGRESS BAR -->
+    =============================================== */
+
+    $('.progress .progress-bar').progressbar({transition_delay: 800});
+
+    /* ==============================================
+    LIGHTBOX -->
+    =============================================== */
+
+    jQuery('a[data-gal]').each(function() {
+        jQuery(this).attr('rel', jQuery(this).data('gal'));
+        });     
+    jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
+
+    /* ==============================================
+    CAROUSEL -->
+    =============================================== */
+
+        $('#testimonials').owlCarousel({
+            loop:true,
+            margin:30,
+            nav:false,
+            dots:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+
+        $('.owl-fullwidth').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:true,
+            dots:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
+
+    /* ==============================================
+    DATAPICKER -->
+    =============================================== */
+
+
+        $( "#datepicker" ).datepicker({  dateFormat: 'dd/mm/yy',
+                                         changeMonth: false,
+                                         minDate: new Date(),
+                                         maxDate: '+2y',
+                                        onSelect: function(date){
+                                            var fecha = date.split("/");
+                                            var myDate = fecha[2] + "-" + fecha[1] + "-" + fecha[0];
+                                            var selectedDate = new Date(myDate);
+                                            var msecsInADay = 86400000;
+                                            var endDate = new Date(selectedDate.getTime() + msecsInADay);
+                                            $("#datepicker1").datepicker( "option", "minDate", endDate );
+                                            $("#datepicker1").datepicker( "option", "maxDate", '+2y' );
+                                        } 
+                                    });
+        $( "#datepicker1" ).datepicker({ dateFormat: 'dd/mm/yy' });
+        
+
+        $( "#datepicker2" ).datepicker();
+        $( "#datepicker3" ).datepicker();
+        $( "#datepicker4" ).datepicker();
+        $( "#datepicker5" ).datepicker();
+        $( "#datepicker6" ).datepicker();
+        $( "#datepicker7" ).datepicker();
+        $( "#datepicker8" ).datepicker();
+        $( "#datepicker9" ).datepicker();
+
+        //Open on click on calendar image
+        $("#calendar0").click(function() {
+               $("#datepicker").datepicker("show");
+            });
+        $("#datepicker").click(function() {
+               $("#datepicker").datepicker("show");
+            });
+        $("#calendar1").click(function() {
+               $("#datepicker1").datepicker("show");
+            });
+        $("#datepicker1").click(function() {
+               $("#datepicker1").datepicker("show");
+            });  
+
+    /* ==============================================
+    L O V E -->
+    =============================================== */
+
+        console.log("%cMade with %c♥ %cfrom El Misti --> %cWeb? joinUs (it at elmistihostels.com)","color:#ce2039;font-size:18px;font-family:'Lucida Console', Monaco, monospace","color:#ce2184;font-size:30px;font-weight:bold;font-family:'Lucida Console', Monaco, monospace","color:#147f30;font-size:16px;font-family:'Lucida Console', Monaco, monospace","color:#228baf;font-size:16px;font-family:'Lucida Console', Monaco, monospace");
+
+
+    })(jQuery);
+
+
+/**
+* Valida los datos del formulario superior de la home.
+* @param {string} a1 - Texto de error 'Debe completar todo el formulario' traducido.
+*/
+function checkeaForm(a1){ 
+    if($( "#datepicker" ).val() == "" || $( "#datepicker1" ).val() == "" ){
+            alert(a1);
+            return false;
+        }else{
+            //trackeo la meta en Analytics
+            trackAnalytics();
+            //trackeo la meta en FB
+            trackFB();
+            return true;
+        }   
+}
+
+
+
+ /**
+ * Dispara el evento de la conversion que registra el click en el boton reservas.
+ * Registra la conversion en Bing.
+ */
+ function trackAnalytics(){
+        //Trackeo el evento en Analytics
+        label ="SITE-IPANEMA";
+          //console.log("Lbl: " + label);
+          ga('send', 'event', 'RESERVAS', 'Click-btn-RESERVE-AGORA', label);
+          //trackeo el evento de Bing
+          window.uetq = window.uetq || []; window.uetq.push({ 'ec':'Reserva', 'ea':'Click', 'el':'Formulario', 'ev':'0' });
+        }
+ /**
+ * Registra la conversion en Facebook.
+ */
+function trackFB(){
+          //console.log("Fb Track");
+          fbq('track', 'AddToCart');
+          //console.log("Trackeado en FB");
+        }
