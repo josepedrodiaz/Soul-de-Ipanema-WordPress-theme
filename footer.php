@@ -77,6 +77,8 @@
     </div><!-- end copyrights -->
 </div><!-- end wrapper -->
 
+   
+
     <!-- Template core JavaScript's
     ================================================== -->
     <!-- jQuery Apear Plugin -->

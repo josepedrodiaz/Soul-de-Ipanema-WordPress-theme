@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://haughtiest-repair.000webhostapp.com/custom.css" rel="stylesheet">
     <meta name="description" content="El Misti Hostel Ipanema">
     <meta name="author" content="Pedro Diaz">
 
@@ -28,8 +29,6 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">
     <!-- Default Styles -->
     <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
-    <!-- Custom Styles -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css?d=20140420.02" rel="stylesheet">
 
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link href="<?php echo get_template_directory_uri(); ?>/rs-plugin/css/settings.css" rel="stylesheet">
@@ -64,16 +63,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-W2CJBV');</script>
 <!-- End Google Tag Manager -->
 
-<!-- PRELOADER -->
+<!-- PRELOADER
 <div id="loader">
     <div class="loader-container">
         <h3 class="loader-back-text"><img src="<?php echo get_template_directory_uri(); ?>/images/loader.gif" alt="" class="loader"></h3>
     </div>
 </div>
-
+ -->
 
 
 <?php
+    //include Blog marecia Button
+    include("inc/mareciaButton.php");
     //include Best Price Banner
     include("inc/bestPrice.php");
 ?>
